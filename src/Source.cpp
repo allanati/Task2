@@ -14,7 +14,7 @@ namespace an {
 		int n = 26;
 		int m = 2;
 		std::vector<std::vector<int>> letters(n, std::vector<int>(m, 0));
-		int num = 65;	// int('a')
+		int num = 65;	// int('A')
 		for (int i = 0; i < 26; i++) {		//fill second column of array with int(of letters)
 			letters[i][1] = num;
 			num++;
